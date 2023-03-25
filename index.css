@@ -1,6 +1,6 @@
 @font-face {
   font-family: "MerchantCopy";
-  src: local("MerchantCopy"), url(./MerchantCopy.ttf) format("truetype");
+  src: local("MerchantCopy"), url(/emo/MerchantCopy.ttf) format("truetype");
 }
 
 :root {
@@ -21,7 +21,7 @@ body {
   border: 0;
   background-color: var(--bg-body-color);
   font-family: var(--font-primary);
-  background-image: url(./images/bg-space.svg);
+  background-image: url(/emo/images/bg-space.svg);
   background-size: cover;
   background-position: center center;
 }
@@ -108,28 +108,28 @@ body {
 }
 
 .footer .icons .icon-emo {
-  background-image: url(./images/icon-emo.svg),
-    url(./images/icon-emo-active.svg);
+  background-image: url(/emo/images/icon-emo.svg),
+    url(/emo/images/icon-emo-active.svg);
 }
 
 .footer .icons .icon-discord {
-  background-image: url(./images/icon-discord.svg),
-    url(./images/icon-discord-active.svg);
+  background-image: url(/emo/images/icon-discord.svg),
+    url(/emo/images/icon-discord-active.svg);
 }
 
 .footer .icons .icon-github {
-  background-image: url(./images/icon-github.svg),
-    url(./images/icon-github-active.svg);
+  background-image: url(/emo/images/icon-github.svg),
+    url(/emo/images/icon-github-active.svg);
 }
 
 .footer .icons .icon-instagram {
-  background-image: url(./images/icon-instagram.svg),
-    url(./images/icon-instagram-active.svg);
+  background-image: url(/emo/images/icon-instagram.svg),
+    url(/emo/images/icon-instagram-active.svg);
 }
 
 .footer .icons .icon-twitter {
-  background-image: url(./images/icon-twitter.svg),
-    url(./images/icon-twitter-active.svg);
+  background-image: url(/emo/images/icon-twitter.svg),
+    url(/emo/images/icon-twitter-active.svg);
 }
 
 .index .sidebar {
