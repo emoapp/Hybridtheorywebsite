@@ -1,0 +1,3 @@
+# emo
+
+The emo website
