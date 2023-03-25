@@ -190,7 +190,7 @@ body {
 }
 
 .index .home .title .download-app:hover {
-  color: var(--fg-white-color);
+  color: var(--fg-active-color);
 }
 
 .index .home .title .download-app:hover .get-emo {
@@ -223,7 +223,7 @@ body {
 }
 
 .index .home .description .link:hover {
-  color: var(--fg-white-color);
+  color: var(--fg-active-color);
   text-decoration-color: var(--fg-active-color);
 }
 
