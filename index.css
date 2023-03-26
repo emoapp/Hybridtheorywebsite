@@ -11,11 +11,12 @@
   --fg-dim-color: #262628;
   --fg-active-color: #f62198;
   --bg-body-color: #010101;
+  --root-font-size: 50%;
 }
 
 html,
 body {
-  font-size: 75%;
+  font-size: var(--root-font-size);
   margin: 0;
   padding: 0;
   border: 0;
@@ -26,24 +27,31 @@ body {
   background-position: center center;
 }
 
+@media (max-width: 1366px) {
+  html,
+  body {
+    font-size: calc(var(--root-font-size) * 0.75);
+  }
+}
+
 @media (max-width: 1024px) {
   html,
   body {
-    font-size: 62.5%;
+    font-size: calc(var(--root-font-size) * 0.75);
   }
 }
 
 @media (max-width: 768px) {
   html,
   body {
-    font-size: 50%;
+    font-size: calc(var(--root-font-size) * 0.5);
   }
 }
 
 @media (max-width: 414px) {
   html,
   body {
-    font-size: 25%;
+    font-size: calc(var(--root-font-size) * 0.75);
   }
 }
 
@@ -62,7 +70,7 @@ body {
 
 .footer {
   color: var(--fg-text-color);
-  height: 200px;
+  height: 12.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -197,7 +205,7 @@ body {
 }
 
 .index .home .title .download-app img {
-  width: 32px;
+  width: 2rem;
 }
 
 .index .home .title .download-app .get-emo {
@@ -213,6 +221,10 @@ body {
 
 .index .home .description.dim {
   color: var(--fg-dim-color);
+}
+
+.index .home .description .icon-heart {
+  width: 2rem;
 }
 
 .index .home .description .link {
