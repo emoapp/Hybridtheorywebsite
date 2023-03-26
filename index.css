@@ -70,7 +70,7 @@ body {
 
 .footer {
   color: var(--fg-text-color);
-  height: 12.5rem;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -84,17 +84,17 @@ body {
 }
 
 .footer .copyright {
-  font-size: 3rem;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 1.6rem;
 }
 
 .footer .copyright img {
   width: 2rem;
   height: 2rem;
-  margin-right: 10px;
+  margin-right: 1.6rem;
 }
 
 .footer .icons img {
@@ -111,32 +111,13 @@ body {
   cursor: pointer;
 }
 
-.footer .icons a:hover {
-  background-size: 0 0, contain;
+footer .icons svg {
+  width: 3rem;
+  height: 3rem;
 }
 
-.footer .icons .icon-emo {
-  background-image: url(/images/icon-emo.svg), url(/images/icon-emo-active.svg);
-}
-
-.footer .icons .icon-discord {
-  background-image: url(/images/icon-discord.svg),
-    url(/images/icon-discord-active.svg);
-}
-
-.footer .icons .icon-github {
-  background-image: url(/images/icon-github.svg),
-    url(/images/icon-github-active.svg);
-}
-
-.footer .icons .icon-instagram {
-  background-image: url(/images/icon-instagram.svg),
-    url(/images/icon-instagram-active.svg);
-}
-
-.footer .icons .icon-twitter {
-  background-image: url(/images/icon-twitter.svg),
-    url(/images/icon-twitter-active.svg);
+.footer .icons a:hover svg .highlight {
+  fill: var(--fg-active-color);
 }
 
 .index .sidebar {
