@@ -181,11 +181,6 @@ footer .icons svg {
   cursor: pointer;
 }
 
-.custom-link:hover {
-  color: var(--fg-active-color);
-}
-
-
 .index .home .title .download-app:hover {
   color: var(--fg-active-color);
 }
